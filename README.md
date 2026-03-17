@@ -26,19 +26,12 @@ Ministry-of-Education-project/
 │   ├── docs/                     תיעוד מפורט
 │   │   └── agent_decisions.md    החלטות ארכיטקטוניות מלאות
 │   ├── build/                    בנייה מייצור (אחרי npm run build)
-│   ├── package.json              dependencies
+│   ├── package.json              dependencies של reading-buddy
 │   ├── netlify.toml              הגדרות deployment
 │   └── README.md                 📖 הסבר מפורט על הפרויקט
 │
-├── 📂 public/                     (קבצים סטטיים לשורש)
-│
-├── 📂 src/                        (TypeScript/Vite setup - לשימוש עתידי)
-│
-├── eslint.config.js              ESLint configuration
-├── vite.config.ts                Vite build configuration
-├── tsconfig.json                 TypeScript configuration
-├── package.json                  Root dependencies
-└── README.md                      📖 הקובץ הזה
+├── .gitignore                     Git ignore rules
+└── README.md                      📖 הקובץ הזה (הסבר כללי)
 ```
 
 ---
@@ -165,6 +158,25 @@ npm run build
 
 ---
 
+---
+
+### ⭐ **מבנה הפרויקט - סיכום**
+
+```
+✅ reading-buddy/          ← הפרויקט האמיתי
+   ├── src/               ← קוד שלנו
+   ├── docs/              ← תיעוד
+   ├── package.json
+   └── README.md
+
+✅ README.md               ← ההסברים הכלליים (בשורש)
+✅ .gitignore              ← Git configuration
+```
+
+**הערה:** כל הקבצים/תיקיות שלא צריכים כבר מחוקו (src/, public/, node_modules, dist, etc.)
+
+---
+
 ## 🎯 התחלה מהקראת הקוד
 
 ### 1️⃣ תחילה - קרא את התיעוד
@@ -266,29 +278,6 @@ rb:{userId}:bonusHistory
 | ⏳ Auth אמיתי    | תכנון | JWT tokens           |
 
 ---
-
-## 🚀 הצעדים הבאים
-
-### שלב 1: Backend (2-3 שבועות)
-
-- [ ] Node.js + Express / FastAPI
-- [ ] Database (PostgreSQL / MongoDB)
-- [ ] JWT Authentication
-- [ ] API endpoints
-
-### שלב 2: Enhancements (3-4 שבועות)
-
-- [ ] More books library
-- [ ] Advanced filtering
-- [ ] Social features
-- [ ] Notifications
-
-### שלב 3: Deployment (1 שבוע)
-
-- [ ] Server setup
-- [ ] CI/CD pipeline
-- [ ] Monitoring
-- [ ] Analytics
 
 ---
 
