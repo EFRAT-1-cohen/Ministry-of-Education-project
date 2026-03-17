@@ -267,37 +267,14 @@ rb:{userId}:bonusHistory
 
 ---
 
-## 🚀 הצעדים הבאים
-
-### שלב 1: Backend (2-3 שבועות)
-
-- [ ] Node.js + Express / FastAPI
-- [ ] Database (PostgreSQL / MongoDB)
-- [ ] JWT Authentication
-- [ ] API endpoints
-
-### שלב 2: Enhancements (3-4 שבועות)
-
-- [ ] More books library
-- [ ] Advanced filtering
-- [ ] Social features
-- [ ] Notifications
-
-### שלב 3: Deployment (1 שבוע)
-
-- [ ] Server setup
-- [ ] CI/CD pipeline
-- [ ] Monitoring
-- [ ] Analytics
-
----
+#
 
 ## 📚 קישורים שימושיים
 
 - 🔗 [GitHub Repository](https://github.com/EFRAT-1-cohen/Ministry-of-Education-project)
 - 📖 [Project README](./reading-buddy/README.md)
 - 📋 [Architecture Decisions](./reading-buddy/docs/agent_decisions.md)
-- 🌐 [Live Demo](https://reading-buddy.netlify.app) (כשיהיה deployed)
+
 
 ---
 
